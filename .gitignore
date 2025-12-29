@@ -1,0 +1,15 @@
+dist/
+build/
+venv/
+
+*.log
+*.exe
+*.spec
+*.conf
+*.zip
+
+**/lib/
+**/__pycache__
+**/node_modules
+**/package-lock.json
+**/.streamlit/secrets.toml
