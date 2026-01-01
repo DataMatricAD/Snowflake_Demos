@@ -15,10 +15,10 @@ This project demonstrates the comprehensive Snowflake Intelligence capabilities 
 
 ## Demo video showing some of what you can do!
 
-![Snowflake Intelligence Demo Video](https://github.com/NickAkincilar/Snowflake_AI_DEMO/blob/main/images/SFI_Demo.webp?raw=true)(https://youtu.be/7T8LI5wIfDk)
+![Snowflake Intelligence Demo Video](https://github.com/DataMatricAD/Snowflake_Demos.git)(https://www.youtube.com/@datamatric/featured)
 
 ## Demo video generating streamlit apps from conversations!
-![Snowflake Intelligence Demo Video](https://github.com/NickAkincilar/Snowflake_AI_DEMO/blob/main/images/SFI_streamlit.webp?raw=true)(https://youtu.be/zNVx3hwKbyc)
+![Snowflake Intelligence Demo Video](https://github.com/DataMatricAD/Snowflake_Demos.git)(https://www.youtube.com/@datamatric/featured)
 
 
 
@@ -54,7 +54,7 @@ This project demonstrates the comprehensive Snowflake Intelligence capabilities 
 - **Visualization Support**: Generates charts and visualizations for data insights
 
 ### 5. GitHub Integration
-- **Repository**: `https://github.com/NickAkincilar/Snowflake_AI_DEMO.git`
+- **Repository**: `https://github.com/DataMatricAD/Snowflake_Demos.git`
 - **Automated Sync**: Pulls demo data and unstructured documents
 - **File Processing**: Parses PDF documents using Cortex Parse for search indexing
 
@@ -64,7 +64,7 @@ The following diagram shows how all components work together in the Snowflake In
 
 ```mermaid
 graph TD
-    subgraph "GitHub Repository: NickAkincilar/Snowflake_AI_DEMO"
+    subgraph "GitHub Repository: DataMatricAD/Snowflake_Demos"
         B[CSV Files<br/>20 demo_data files]
         C[Unstructured Docs<br/>PDF files]
     end

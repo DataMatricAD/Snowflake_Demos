@@ -4,7 +4,7 @@
     -- ========================================================================
     -- Snowflake AI Demo - Complete Setup Script
     -- This script creates the database, schema, tables, and loads all data
-    -- Repository: https://github.com/NickAkincilar/Snowflake_AI_DEMO.git
+    -- Repository: https://github.com/DataMatricAD/Snowflake_Demos.git
     -- ========================================================================
 
     
@@ -71,12 +71,11 @@
         TIMESTAMP_FORMAT = 'YYYY-MM-DD HH24:MI:SS'
         NULL_IF = ('NULL', 'null', '', 'N/A', 'n/a');
 
-
 use role accountadmin;
     -- Create API Integration for GitHub (public repository access)
     CREATE OR REPLACE API INTEGRATION git_api_integration
         API_PROVIDER = git_https_api
-        API_ALLOWED_PREFIXES = ('https://github.com/NickAkincilar/')
+        API_ALLOWED_PREFIXES = ('https://github.com/DataMatricAD/')
         ENABLED = TRUE;
 
 
@@ -87,7 +86,7 @@ use role SF_Intelligence_Demo;
     -- Create Git repository integration for the public demo repository
     CREATE OR REPLACE GIT REPOSITORY SF_AI_DEMO_REPO
         API_INTEGRATION = git_api_integration
-        ORIGIN = 'https://github.com/NickAkincilar/Snowflake_AI_DEMO.git';
+        ORIGIN = 'https://github.com/DataMatricAD/Snowflake_Demos.git';
 
     -- Create internal stage for copied data files
     CREATE OR REPLACE STAGE INTERNAL_DATA_STAGE
