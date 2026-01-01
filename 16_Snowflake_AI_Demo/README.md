@@ -1,6 +1,6 @@
 # Snowflake Intelligence Demo
 
-**Copy, Paste, Run & Done in less than 10 mins!**
+**Plug and Play!!!**
 
 **Just run the SQL script as an ACCOUNTADMIN as-is & your are done!**
 
