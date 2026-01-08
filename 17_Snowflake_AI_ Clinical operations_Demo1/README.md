@@ -26,10 +26,10 @@ This demo showcases comprehensive **Snowflake Intelligence capabilities** for He
 - **Git Integration** – Automated loading of structured and unstructured healthcare data  
 
 🎥 Demo video (Snowflake Intelligence overview):  
-https://youtu.be/7T8LI5wIfDk  
+share link
 
 🎥 Demo video (Streamlit apps from conversations):  
-https://youtu.be/zNVx3hwKbyc  
+share link
 
 ---
 
